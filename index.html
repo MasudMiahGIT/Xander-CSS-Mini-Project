@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <title>Checkout Page</title>
+</head>
+
+<body>
+    <nav>
+        <img src="coffee_masters_logo.png" alt="coffee-logo"><p>Coffee Masters</p>
+    </nav>
+
+    <div class = "container">
+        <div class="items">
+            <h3>ITEMS</h3>
+                <div class="orderDetails">
+                    <div class = "foodBeverage">
+                        <p>1x</p>
+                        <ul>
+                            <li>
+                                Cappuccino
+                            </li>
+                            <li class = "type">
+                                Light Foam
+                            </li>
+                        </ul>
+                    </div>
+                <p>$3.35</p>
+            </div>
+
+            <div class="orderDetails">
+                <div class = "foodBeverage">
+                    <p>1x</p>
+                    <ul>
+                        <li>
+                            Cappuccino
+                        </li>
+                        <li class = "type">
+                            Lite Milk
+                        </li>
+                        <li class = "type">
+                            Double Espresso
+                        </li>
+                    </ul>
+                </div>
+                <p>$3.85</p>
+            </div>
+
+            <div class="orderDetails">
+                <div class = "foodBeverage">
+                    <p>1x</p>
+                    <ul>
+                        <li>
+                            Croissant
+                        </li>
+                        <li class = "type">
+                            Butter
+                        </li>
+                    </ul>
+                </div>
+                <p>$2.45</p>
+            </div>
+        </div>
+
+        <div class = "name">
+            <h3>NAME</h3>
+            <div class="inputSection">
+                <label for="example" class="input-label">Name for order</label>
+                <input id="example" class="example-input" placeholder="Ford Prefect"/>
+            </div>
+        </div>
+        <div class = "payment">
+            <h3>PAYMENT</h3>
+            <div class="inputSection">
+                <label for="example" class="input-label">Card number</label>
+                <input id="example" class="example-input" placeholder="1234 5678 9012 3456"/>
+            </div>
+            <div class="inputSection">
+                <label for="example" class="input-label">CCV Number</label>
+                <input id="example" class="example-input" placeholder="001"/>
+            </div>
+        </div>
+
+        <div class = "price">
+                <div class = "priceAmount">
+                    <div>
+                        <p>Subtotal: </p>
+                        <p>Tax: </p>
+                        <p>Total: </p>
+                    </div>
+                    <div>
+                        <p>$9.65</p>
+                        <p>$0.82</p>
+                        <p>$10.47</p>
+                    </div>
+                </div>
+
+            <div class="orderBtn">
+                <button type="button">Place Order</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
